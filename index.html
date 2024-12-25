@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+</head>
+<body>
+    <h2>Multiplexing</h2>
+
+    <h4>HTTP1.1</h4>
+    <p>
+         Uses a single connection for each request, which can lead to a phenomenon known as head-of-line
+        blocking. If one resource is slow to load, it can block the loading of other resources.
+    </p>
+
+    <h4>HTTP2</h4>
+    <p>
+        Supports multiplexing, allowing multiple requests and responses to be sent and received in parallel
+        over a single connection. This helps to overcome the head-of-line blocking issue and improves overall page
+        loading speed.
+    </p>
+
+    <h2>Binary Protocol</h2>
+
+    <h4>HTTP1.1 </h4>
+    <p>
+        Text-based protocol, which is human-readable but can be less efficient in terms of parsing and
+        processing.
+    </p>
+    <h4>HTTP2</h4> 
+    <p>
+     Binary protocol, which is more efficient for machines to parse and results in faster processing.
+   </p>
+
+<h2>Resource Prioritization</h2>
+
+    <h4>HTTP1.1</h4>
+    <p> 
+        No built-in support for prioritizing resources. All resources are treated equally.
+    </p>
+    <h4>HTTP2</h4>
+    <p>
+        Supports resource prioritization, allowing the server to specify the importance of different
+        resources. This helps in loading critical resources first, improving page rendering speed.
+    </p>
+
+    <h1>Objects</h1>
+    <ul>
+        <li>
+            In JavaScript, objects are a fundamental data type that allows you to store and organize data using key-value
+        pairs.
+       </li> 
+        <li>
+            Objects can represent complex entities and are central to the language's flexibility and expressiveness.
+        </li>
+       <li> 
+          When it comes to their internal representations, understanding how JavaScript handles objects is crucial for
+        efficient programming.
+       </li>
+    </ul>
+    <h1>Internal Representations</h1>
+    <h3>Properties</h3>
+    <p>
+        Objects in JavaScript consist of properties, where each property has a key and a corresponding value. The key is
+        always a string or a symbol, and the value can be of any data type, including other objects.
+    </p>
+    <h3>Prototypes</h3>
+    <p>
+        JavaScript uses a prototype-based inheritance model. Objects can inherit properties and methods from other
+        objects through a prototype chain. If a property or method is not found on an object, JavaScript looks for it in
+        the object's prototype, and so on, until the end of the chain.
+    </p>
+
+    
+</body>
+</html>
